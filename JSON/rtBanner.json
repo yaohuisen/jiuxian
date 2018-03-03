@@ -1,0 +1,32 @@
+[
+	[
+		{"src" : "rtBanner1"},
+		{"src" : "rtBanner2"},
+		{"src" : "rtBanner3"},
+		{"src" : "rtBanner4"},
+		{"src" : "rtBanner5"},
+		{"src" : "rtBanner6"},
+		{"src" : "rtBanner7"},
+		{"src" : "rtBanner8"}
+	],
+	[
+		{"src" : "rtBanner9"},
+		{"src" : "rtBanner10"},
+		{"src" : "rtBanner11"},
+		{"src" : "rtBanner12"},
+		{"src" : "rtBanner13"},
+		{"src" : "rtBanner14"},
+		{"src" : "rtBanner15"},
+		{"src" : "rtBanner16"}
+	],
+	[
+		{"src" : "rtBanner17"},
+		{"src" : "rtBanner18"},
+		{"src" : "rtBanner19"},
+		{"src" : "rtBanner20"},
+		{"src" : "rtBanner21"},
+		{"src" : "rtBanner22"},
+		{"src" : "rtBanner23"},
+		{"src" : "rtBanner24"}
+	]
+]

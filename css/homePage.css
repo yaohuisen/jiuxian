@@ -1,0 +1,1500 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+body {
+  overflow-x: hidden;
+  background: #f9f9f9; }
+
+#login {
+  width: 100%;
+  height: 26px;
+  background: #f2f2f2;
+  border: 1px solid #e5e5e5; }
+  #login #login-center {
+    width: 1200px;
+    height: 26px;
+    margin: 0 auto; }
+    #login #login-center p {
+      float: left;
+      height: 100%;
+      line-height: 26px;
+      color: #999; }
+      #login #login-center p a {
+        color: #999; }
+      #login #login-center p a:first-of-type {
+        margin: 0 6px 0 14px; }
+    #login #login-center > ul {
+      float: right;
+      height: 100%;
+      line-height: 26px; }
+      #login #login-center > ul > li {
+        float: left;
+        height: 100%;
+        margin-left: 12px;
+        position: relative; }
+    #login #login-center ul li a {
+      display: inline-block;
+      width: 100%;
+      height: 100%; }
+    #login #login-center ul li ol li {
+      width: 100%;
+      height: 26px;
+      line-height: 26px;
+      text-align: center; }
+    #login #login-center ul > li:nth-child(2) a {
+      color: #cc0000; }
+    #login #login-center ul > li:nth-child(3) {
+      width: 74px; }
+      #login #login-center ul > li:nth-child(3) span {
+        color: #cc0000; }
+      #login #login-center ul > li:nth-child(3) a {
+        width: 60px;
+        float: right; }
+    #login #login-center ul > li:nth-child(4) a {
+      color: #cc0000; }
+    #login #login-center ul li:first-child {
+      width: 60px; }
+      #login #login-center ul li:first-child b {
+        right: 0;
+        top: 50%;
+        margin-top: -2px; }
+      #login #login-center ul li:first-child ol {
+        width: 100%; }
+    #login #login-center ul li:first-child:hover {
+      background: #fff; }
+      #login #login-center ul li:first-child:hover b {
+        width: 0;
+        height: 0;
+        border-top: none;
+        border-bottom: 2px solid #999;
+        border-right: 3px solid transparent;
+        border-left: 3px solid transparent; }
+      #login #login-center ul li:first-child:hover ol {
+        display: block; }
+    #login #login-center ul li:nth-child(3) i {
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      background: url(../img/public-24.png) no-repeat -18px 0;
+      left: 0;
+      top: 50%;
+      margin-top: -6px; }
+    #login #login-center ul li:nth-child(6) i {
+      display: none;
+      width: 80px;
+      height: 80px;
+      background: url(../img/jxPho-code.jpg) no-repeat;
+      position: absolute;
+      top: 26px;
+      left: 0; }
+    #login #login-center ul li:nth-child(6):hover i {
+      display: block; }
+    #login #login-center ul li:nth-child(8) {
+      width: 76px; }
+      #login #login-center ul li:nth-child(8) i {
+        display: inline-block;
+        position: absolute;
+        width: 15px;
+        height: 14px;
+        background: url(../img/public-24.png) no-repeat -91px -265px;
+        top: 50%;
+        margin-top: -5px; }
+      #login #login-center ul li:nth-child(8) > a {
+        margin-left: 16px; }
+      #login #login-center ul li:nth-child(8) b {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-left: -6px; }
+      #login #login-center ul li:nth-child(8) ol li {
+        width: 80px;
+        margin-left: 0; }
+    #login #login-center ul li:nth-child(8):hover {
+      background: #fff; }
+      #login #login-center ul li:nth-child(8):hover b {
+        width: 0;
+        height: 0;
+        border-top: none;
+        border-bottom: 2px solid #999;
+        border-right: 3px solid transparent;
+        border-left: 3px solid transparent; }
+      #login #login-center ul li:nth-child(8):hover ol {
+        display: block; }
+    #login #login-center ul li:last-child span {
+      color: #cc0000;
+      margin-left: 5px; }
+    #login #login-center b {
+      width: 0;
+      height: 0;
+      border-top: 2px solid #999;
+      border-right: 3px solid transparent;
+      border-left: 3px solid transparent;
+      position: absolute; }
+    #login #login-center ol {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 26px;
+      background: #fff; }
+      #login #login-center ol li a:hover {
+        color: red; }
+    #login #login-center a:hover {
+      color: #cc0000;
+      text-decoration: underline; }
+
+#adverts {
+  width: 100%;
+  height: 90px; }
+  #adverts img {
+    width: 100%; }
+
+#head {
+  width: 100%;
+  height: 125px; }
+  #head #headcon {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    box-sizing: border-box; }
+    #head #headcon h1 {
+      float: left; }
+    #head #headcon h2 {
+      float: left;
+      margin: 0 20px 0 13px; }
+    #head #headcon form {
+      float: left; }
+      #head #headcon form input {
+        float: left; }
+      #head #headcon form input[type=text] {
+        width: 452px;
+        height: 38px;
+        box-sizing: border-box;
+        border: 2px solid #cc0000;
+        padding: 5px 0  0 6px; }
+      #head #headcon form input[type=submit] {
+        width: 86px;
+        height: 38px;
+        background: #cc0000;
+        border: 0;
+        color: #fff;
+        cursor: pointer; }
+    #head #headcon p {
+      float: left;
+      clear: both;
+      margin-top: 8px; }
+      #head #headcon p a {
+        float: left;
+        display: inline-block;
+        padding: 0 8px;
+        border-right: 1px solid #ccc; }
+      #head #headcon p a:first-child {
+        padding-left: 0; }
+      #head #headcon p a:last-child {
+        border-right: 0px; }
+    #head #headcon ul {
+      float: right; }
+      #head #headcon ul li {
+        float: left; }
+      #head #headcon ul li:nth-child(1) {
+        width: 43px;
+        height: 43px;
+        background: url(../img/public-24.png) no-repeat 0 -22px; }
+      #head #headcon ul li:nth-child(2) {
+        width: 43px;
+        height: 43px;
+        background: url(../img/public-24.png) no-repeat -48px -22px;
+        margin: 0 20px; }
+      #head #headcon ul li:nth-child(3) {
+        background: url(../img/jxPho-code.jpg) no-repeat;
+        width: 80px;
+        height: 80px; }
+
+#nav {
+  width: 100%;
+  height: 34px;
+  background: #990000; }
+  #nav #navcon {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    #nav #navcon > ul {
+      float: left;
+      height: 100%; }
+      #nav #navcon > ul > li {
+        float: left;
+        height: 100%;
+        position: relative; }
+        #nav #navcon > ul > li > a {
+          color: #fff;
+          display: inline-block;
+          float: left;
+          height: 100%;
+          line-height: 34px;
+          padding: 0 22px;
+          background: url(../img/navLine.png) no-repeat right 5px; }
+      #nav #navcon > ul > li:hover {
+        background: #b40c10; }
+      #nav #navcon > ul > li:last-child > a {
+        background: none; }
+      #nav #navcon > ul > li:nth-child(1) > a {
+        background: #b40c10; }
+    #nav #navcon #left {
+      width: 190px;
+      height: 100%;
+      line-height: 34px;
+      text-align: center;
+      color: #fff;
+      background: #ce171f;
+      font-weight: bolder;
+      float: left;
+      position: relative; }
+      #nav #navcon #left > ul {
+        position: absolute;
+        top: 34px;
+        width: 100%;
+        height: 470px;
+        background: #fff;
+        text-align: left;
+        z-index: 1000; }
+        #nav #navcon #left > ul > li {
+          padding: 11px 15px 0 15px;
+          box-sizing: border-box;
+          border-bottom: 1px solid #ccc;
+          height: 81px; }
+          #nav #navcon #left > ul > li h4 {
+            text-align: left;
+            line-height: 15px;
+            margin-bottom: 8px;
+            color: #333333; }
+            #nav #navcon #left > ul > li h4 i {
+              display: inline-block;
+              margin-right: 15px; }
+          #nav #navcon #left > ul > li > P {
+            line-height: 20px; }
+            #nav #navcon #left > ul > li > P > a {
+              color: #666;
+              padding: 0 3px; }
+        #nav #navcon #left > ul > li:nth-child(1) h4 i {
+          width: 13px;
+          height: 15px;
+          background: url(../img/public-24.png) no-repeat -73px -265px; }
+        #nav #navcon #left > ul > li:nth-child(2) h4 i {
+          width: 10px;
+          height: 15px;
+          background: url(../img/public-24.png) no-repeat 0px -102px; }
+        #nav #navcon #left > ul > li:nth-child(3) h4 i {
+          width: 8px;
+          height: 18px;
+          background: url(../img/public-24.png) no-repeat -18px -102px; }
+        #nav #navcon #left > ul > li:nth-child(4) h4 i {
+          width: 14px;
+          height: 17px;
+          background: url(../img/public-24.png) no-repeat -37px -102px; }
+        #nav #navcon #left > ul > li:nth-child(5) h4 i {
+          width: 11px;
+          height: 15px;
+          background: url(../img/public-24.png) no-repeat -61px -102px; }
+        #nav #navcon #left > ul > li:last-child {
+          height: 65px;
+          border: 0; }
+          #nav #navcon #left > ul > li:last-child h4 i {
+            width: 12px;
+            height: 15px;
+            background: url(../img/public-24.png) no-repeat -80px -102px; }
+    #nav #navcon h3 {
+      float: right;
+      height: 34px; }
+    #nav #navcon b {
+      width: 29px;
+      height: 17px;
+      background: url(../img/public-24.png) no-repeat 0 -264px;
+      right: 7px;
+      bottom: 22px;
+      position: absolute; }
+    #nav #navcon a {
+      display: inline-block; }
+    #nav #navcon .active {
+      background: #ff9900;
+      border-radius: 5px;
+      color: #fff !important; }
+
+#foot {
+  width: 100%;
+  height: 290px;
+  background: #333;
+  margin-top: 20px; }
+  #foot #footcon {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #333; }
+    #foot #footcon .left {
+      width: 780px;
+      float: left; }
+      #foot #footcon .left p {
+        width: 100%;
+        color: #ececec;
+        line-height: 20px; }
+        #foot #footcon .left p a {
+          display: inline-block;
+          padding: 0 12px;
+          border-right: 1px solid #ccc;
+          color: #fff; }
+        #foot #footcon .left p a:last-child {
+          border-right: 0; }
+      #foot #footcon .left p:nth-of-type(1), #foot #footcon .left p:nth-of-type(3) {
+        margin-top: 20px; }
+      #foot #footcon .left .bot {
+        margin: 10px 0; }
+      #foot #footcon .left span {
+        color: red;
+        display: inline-block; }
+    #foot #footcon .right {
+      width: 80px;
+      height: 80px;
+      float: right;
+      background: url(../img/jxPho-code.jpg) no-repeat 0 0;
+      margin-top: 40px; }
+
+#broadside {
+  width: 35px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 999;
+  right: 0;
+  border-left: 1px solid #ECECEC; }
+  #broadside i {
+    display: block;
+    width: 19px;
+    height: 19px;
+    background: url(../img/public-24.png) no-repeat 0 0;
+    margin-left: 8px;
+    margin-bottom: 2px; }
+  #broadside #sildecon {
+    width: 100%;
+    height: 365px;
+    position: absolute;
+    top: 50%;
+    margin-top: -200px; }
+    #broadside #sildecon #me {
+      width: 100%;
+      height: 37px;
+      padding: 10px 0;
+      text-align: center;
+      position: relative; }
+      #broadside #sildecon #me i {
+        background-position: 0 -163px; }
+      #broadside #sildecon #me b {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background: url(../img/public-24.png) no-repeat; }
+      #broadside #sildecon #me .hide {
+        width: 270px;
+        height: 281px;
+        border: 1px solid #ccc;
+        border-right: 0;
+        position: absolute;
+        right: 36px;
+        background: #fff;
+        top: 0;
+        display: none; }
+        #broadside #sildecon #me .hide .hideTop {
+          width: 270px;
+          height: 114px;
+          line-height: 114px;
+          text-align: center;
+          border-bottom: 1px solid #ccc; }
+          #broadside #sildecon #me .hide .hideTop a {
+            color: #CC0000;
+            margin-left: 6px; }
+        #broadside #sildecon #me .hide .hideBot {
+          width: 100%;
+          height: 166px;
+          background: #ececec;
+          padding: 0 15px;
+          box-sizing: border-box; }
+          #broadside #sildecon #me .hide .hideBot ul {
+            width: 100%; }
+            #broadside #sildecon #me .hide .hideBot ul li {
+              width: 120px;
+              border-bottom: 1px solid #ccc;
+              text-align: center;
+              float: left;
+              height: 83px;
+              padding-top: 20px;
+              box-sizing: border-box; }
+              #broadside #sildecon #me .hide .hideBot ul li p {
+                width: 100%;
+                text-align: center;
+                margin-top: 5px; }
+            #broadside #sildecon #me .hide .hideBot ul li:nth-child(1) b {
+              background-position: -66px -190px; }
+            #broadside #sildecon #me .hide .hideBot ul li:nth-child(2) b {
+              background-position: -97px -190px; }
+            #broadside #sildecon #me .hide .hideBot ul li:nth-child(3) b {
+              background-position: -158px -190px; }
+            #broadside #sildecon #me .hide .hideBot ul li:nth-child(4) b {
+              background-position: -158px -219px; }
+    #broadside #sildecon #me:hover .hide {
+      display: block; }
+    #broadside #sildecon #me:hover {
+      background: #CC0000; }
+    #broadside #sildecon #me:hover i {
+      background-position: -19px -163px; }
+    #broadside #sildecon #me:hover span {
+      color: #fff; }
+    #broadside #sildecon #collect {
+      width: 100%;
+      height: 37px;
+      padding: 10px 0;
+      text-align: center;
+      position: relative; }
+      #broadside #sildecon #collect .hideTop {
+        position: absolute;
+        width: 270px;
+        height: 114px;
+        line-height: 114px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        right: 36px;
+        background: #fff;
+        top: 0;
+        display: none; }
+        #broadside #sildecon #collect .hideTop a {
+          color: #CC0000;
+          margin-left: 6px; }
+      #broadside #sildecon #collect i {
+        background-position: -40px -163px; }
+    #broadside #sildecon #collect:hover .hideTop {
+      display: block; }
+    #broadside #sildecon #collect:hover {
+      background: #CC0000; }
+    #broadside #sildecon #collect:hover i {
+      background-position: -60px -163px; }
+    #broadside #sildecon #collect:hover span {
+      color: #fff; }
+    #broadside #sildecon #shop {
+      width: 100%;
+      height: 77px;
+      padding: 10px 0;
+      text-align: center; }
+      #broadside #sildecon #shop i {
+        background-position: -120px -163px; }
+      #broadside #sildecon #shop span {
+        display: block; }
+    #broadside #sildecon #shop:hover {
+      background: #CC0000; }
+    #broadside #sildecon #shop:hover span {
+      color: #fff; }
+    #broadside #sildecon #shop:hover i {
+      background-position: -140px -163px; }
+    #broadside #sildecon #chat {
+      width: 100%;
+      height: 37px;
+      padding: 10px 0;
+      text-align: center; }
+      #broadside #sildecon #chat i {
+        background-position: -46px -330px; }
+    #broadside #sildecon #chat:hover {
+      background: #CC0000; }
+    #broadside #sildecon #chat:hover span {
+      color: #fff; }
+    #broadside #sildecon #chat:hover i {
+      background-position: -65px -330px; }
+  #broadside #sildebottom {
+    width: 100%;
+    height: 96px;
+    position: absolute;
+    bottom: 30px; }
+    #broadside #sildebottom i {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background: url(../img/public-24.png) no-repeat; }
+    #broadside #sildebottom #yonghu, #broadside #sildebottom #erweima, #broadside #sildebottom #shang {
+      padding-top: 5px;
+      width: 35px;
+      height: 27px;
+      text-align: center; }
+    #broadside #sildebottom #yonghu {
+      position: relative; }
+      #broadside #sildebottom #yonghu i {
+        background-position: 0 -186px; }
+      #broadside #sildebottom #yonghu p {
+        width: 80px;
+        text-align: center;
+        line-height: 27px;
+        background: #fff;
+        border: 1px solid #ECECEC;
+        border-right: 0;
+        top: 0;
+        position: absolute;
+        right: 36px;
+        display: none; }
+    #broadside #sildebottom #yonghu:hover {
+      background: #CC0000; }
+    #broadside #sildebottom #yonghu:hover p {
+      display: block; }
+    #broadside #sildebottom #erweima {
+      position: relative; }
+      #broadside #sildebottom #erweima i {
+        background-position: -22px -186px; }
+      #broadside #sildebottom #erweima div {
+        width: 80px;
+        height: 80px;
+        display: none;
+        position: absolute;
+        right: 36px;
+        top: 0; }
+    #broadside #sildebottom #erweima:hover {
+      background: #CC0000; }
+    #broadside #sildebottom #erweima:hover div {
+      display: block; }
+    #broadside #sildebottom #shang i {
+      background-position: -42px -186px; }
+
+#banner {
+  width: 100%;
+  height: 470px;
+  position: relative; }
+  #banner > ul {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    #banner > ul > li {
+      width: 1920px;
+      height: 100%;
+      position: absolute;
+      left: -247px; }
+      #banner > ul > li > img {
+        width: 100%;
+        height: 100%; }
+  #banner #bannercon {
+    width: 1200px;
+    height: 470px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: 0; }
+    #banner #bannercon > ol {
+      position: absolute;
+      width: 224px;
+      left: 50%;
+      margin-left: -112px;
+      bottom: 15px; }
+      #banner #bannercon > ol > li {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #282d32;
+        float: left;
+        margin-left: 8px;
+        color: #fff;
+        text-align: center;
+        line-height: 20px; }
+    #banner #bannercon > ul {
+      position: absolute;
+      right: 0; }
+      #banner #bannercon > ul > li {
+        width: 190px;
+        height: 156px; }
+        #banner #bannercon > ul > li > ol {
+          width: 100%;
+          height: 100%;
+          position: relative; }
+          #banner #bannercon > ul > li > ol > li {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #fff; }
+            #banner #bannercon > ul > li > ol > li > img {
+              opacity: 0.8; }
+            #banner #bannercon > ul > li > ol > li > img:hover {
+              opacity: 1; }
+      #banner #bannercon > ul > li:nth-child(2) {
+        margin: 1px 0; }
+    #banner #bannercon .hover {
+      background: red; }
+
+#mainPro {
+  width: 100%;
+  height: 498px;
+  margin-top: 10px;
+  background: #fff; }
+  #mainPro #mainProcon {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    #mainPro #mainProcon #left {
+      width: 921px;
+      height: 100%;
+      float: left;
+      border: 1px solid #ececec;
+      border-top: 0;
+      box-sizing: border-box; }
+      #mainPro #mainProcon #left > ul {
+        overflow: hidden; }
+        #mainPro #mainProcon #left > ul > li {
+          width: 183px;
+          height: 35px;
+          border-right: 1px solid #ccc;
+          border-top: 2px solid #ccc;
+          border-bottom: 1px solid #ccc;
+          background: #f9f9f9;
+          text-align: center;
+          line-height: 35px;
+          float: left;
+          color: #666666;
+          cursor: pointer; }
+        #mainPro #mainProcon #left > ul > li:last-child {
+          border-right: 0; }
+      #mainPro #mainProcon #left > ol {
+        width: 100%;
+        padding: 0 7px;
+        box-sizing: border-box;
+        height: 192px;
+        margin-top: 30px; }
+        #mainPro #mainProcon #left > ol > li {
+          width: 167px;
+          margin: 0 7px;
+          height: 100%;
+          float: left; }
+          #mainPro #mainProcon #left > ol > li > dt {
+            width: 100%;
+            height: 163px;
+            text-align: center; }
+            #mainPro #mainProcon #left > ol > li > dt > span {
+              display: inline-block;
+              width: 0;
+              height: 100%;
+              vertical-align: middle; }
+            #mainPro #mainProcon #left > ol > li > dt > img {
+              vertical-align: middle; }
+          #mainPro #mainProcon #left > ol > li dd > p {
+            width: 163px; }
+            #mainPro #mainProcon #left > ol > li dd > p > a {
+              width: 163px;
+              display: inline-block;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            #mainPro #mainProcon #left > ol > li dd > p > a:hover {
+              color: #cc0000;
+              text-decoration: underline; }
+          #mainPro #mainProcon #left > ol > li dd > span {
+            color: #d55800; }
+      #mainPro #mainProcon #left .hover {
+        color: #cc0000;
+        border-top-color: #cc0000;
+        border-bottom-color: transparent; }
+    #mainPro #mainProcon #right {
+      width: 270px;
+      height: 500px;
+      float: right; }
+      #mainPro #mainProcon #right #news {
+        width: 100%;
+        height: 140px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-top: 0; }
+        #mainPro #mainProcon #right #news > ul {
+          overflow: hidden;
+          margin-bottom: 9px; }
+          #mainPro #mainProcon #right #news > ul > li {
+            float: left;
+            width: 133px;
+            height: 35px;
+            border-bottom: 1px solid #ececec;
+            border-top: 1px solid #ececec;
+            border-right: 1px solid #ececec;
+            text-align: center;
+            line-height: 35px;
+            background: #f9f9f9; }
+          #mainPro #mainProcon #right #news > ul > li:last-child {
+            border-right: 0; }
+        #mainPro #mainProcon #right #news > ol {
+          float: left;
+          overflow: hidden; }
+          #mainPro #mainProcon #right #news > ol > li {
+            width: 106px; }
+            #mainPro #mainProcon #right #news > ol > li > a {
+              display: inline-block;
+              line-height: 28px;
+              width: 106px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            #mainPro #mainProcon #right #news > ol > li > a:hover {
+              color: orange;
+              text-decoration: underline; }
+        #mainPro #mainProcon #right #news > ol:first-of-type {
+          margin: 0 23px 0 16px; }
+        #mainPro #mainProcon #right #news .hover {
+          background: #fff;
+          border-top-color: #cc0000;
+          border-bottom-color: transparent; }
+      #mainPro #mainProcon #right #middle {
+        width: 268px;
+        height: 157px;
+        border: 1px solid #ececec;
+        margin: 10px 0;
+        position: relative;
+        overflow: hidden; }
+        #mainPro #mainProcon #right #middle > ul {
+          position: absolute;
+          height: 100%; }
+          #mainPro #mainProcon #right #middle > ul > li {
+            height: 100%;
+            width: 268px;
+            float: left; }
+        #mainPro #mainProcon #right #middle > ol {
+          position: absolute;
+          left: 50%;
+          margin-left: -38px;
+          z-index: 1000;
+          bottom: 10px; }
+          #mainPro #mainProcon #right #middle > ol > li {
+            width: 12px;
+            height: 12px;
+            float: left;
+            margin-right: 10px;
+            border-radius: 50%;
+            background: #ccc; }
+      #mainPro #mainProcon #right #bottom {
+        width: 268px;
+        height: 178px;
+        border: 1px solid #ececec;
+        position: relative;
+        overflow: hidden; }
+        #mainPro #mainProcon #right #bottom > ul {
+          position: absolute;
+          height: 100%; }
+          #mainPro #mainProcon #right #bottom > ul > li {
+            height: 100%;
+            width: 268px;
+            float: left; }
+        #mainPro #mainProcon #right #bottom > ol {
+          position: absolute;
+          left: 50%;
+          margin-left: -38px;
+          z-index: 1000;
+          bottom: 10px; }
+          #mainPro #mainProcon #right #bottom > ol > li {
+            width: 12px;
+            height: 12px;
+            float: left;
+            margin-right: 10px;
+            border-radius: 50%;
+            background: #ccc; }
+      #mainPro #mainProcon #right .active {
+        background: red !important; }
+
+#sale {
+  width: 100%;
+  height: 290px;
+  margin-top: 40px;
+  background: #fff; }
+  #sale #salecon {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden; }
+    #sale #salecon > h4 {
+      width: 200px;
+      line-height: 20px;
+      font-size: 16px;
+      margin-bottom: 12px; }
+      #sale #salecon > h4 > b {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url(../img/newIndexIcon-24.png) no-repeat 0 0;
+        margin-right: 12px; }
+    #sale #salecon #salebox {
+      width: 100%;
+      height: 259px;
+      box-sizing: border-box;
+      border: 1px solid #ececec;
+      padding: 10px 6px;
+      position: relative; }
+      #sale #salecon #salebox > ul {
+        position: absolute;
+        height: 100%; }
+        #sale #salecon #salebox > ul > li {
+          height: 100%;
+          width: 186px;
+          margin: 0 6px;
+          float: left; }
+          #sale #salecon #salebox > ul > li dl {
+            width: 100%;
+            height: 100%; }
+            #sale #salecon #salebox > ul > li dl dt {
+              width: 100%;
+              height: 193px;
+              text-align: center; }
+              #sale #salecon #salebox > ul > li dl dt > span {
+                display: inline-block;
+                width: 0;
+                height: 100%;
+                vertical-align: middle; }
+              #sale #salecon #salebox > ul > li dl dt > img {
+                vertical-align: middle; }
+            #sale #salecon #salebox > ul > li dl dd {
+              width: 100%;
+              height: 64px; }
+              #sale #salecon #salebox > ul > li dl dd > p {
+                width: 100%;
+                padding-left: 5px;
+                box-sizing: border-box; }
+                #sale #salecon #salebox > ul > li dl dd > p > a {
+                  display: inline-block;
+                  width: 100%;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden; }
+                #sale #salecon #salebox > ul > li dl dd > p > a:hover {
+                  color: #cc0000;
+                  text-decoration: underline; }
+              #sale #salecon #salebox > ul > li dl dd > span {
+                color: #cc0000; }
+      #sale #salecon #salebox > i {
+        display: inline-block;
+        width: 27px;
+        height: 57px;
+        position: absolute;
+        top: 100px;
+        z-index: 1000; }
+      #sale #salecon #salebox > i:first-of-type {
+        background: url(../img/newIndexIcon-24.png) no-repeat 0 -25px;
+        left: 0; }
+      #sale #salecon #salebox > i:last-of-type {
+        background: url(../img/newIndexIcon-24.png) no-repeat -27px -25px;
+        right: 0; }
+    #sale #salecon > ol {
+      position: absolute;
+      right: 0;
+      top: 5px; }
+      #sale #salecon > ol > li {
+        width: 10px;
+        height: 10px;
+        margin-left: 14px;
+        float: left;
+        background: #ccc; }
+  #sale .active1 {
+    background: red !important; }
+
+#white_win {
+  width: 100%;
+  height: 530px;
+  margin-top: 10px; }
+  #white_win #white_wincon {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    #white_win #white_wincon #top {
+      width: 100%;
+      height: 40px;
+      overflow: hidden; }
+      #white_win #white_wincon #top h4 {
+        height: 40px;
+        width: 89px;
+        line-height: 40px;
+        float: left; }
+        #white_win #white_wincon #top h4 span {
+          display: inline-block;
+          width: 28px;
+          height: 28px;
+          text-align: center;
+          line-height: 28px;
+          border-radius: 50%;
+          background: #d43d4e;
+          font-size: 16px;
+          color: #fff;
+          margin-right: 10px; }
+        #white_win #white_wincon #top h4 b {
+          font-size: 14px; }
+      #white_win #white_wincon #top p {
+        float: right;
+        margin-top: 12px; }
+        #white_win #white_wincon #top p a {
+          display: block;
+          float: left;
+          padding: 4px 12px;
+          border-right: 1px solid #ececec; }
+        #white_win #white_wincon #top p a:last-child {
+          border-right: 0;
+          background: #c2782f;
+          color: #fff; }
+    #white_win #white_wincon #middle1 {
+      width: 1200px;
+      height: 488px;
+      border-top: 1px solid #CC0000; }
+      #white_win #white_wincon #middle1 #slider0 {
+        width: 210px;
+        height: 485px;
+        position: relative;
+        float: left;
+        overflow: hidden; }
+        #white_win #white_wincon #middle1 #slider0 > ul {
+          height: 485px;
+          position: absolute; }
+          #white_win #white_wincon #middle1 #slider0 > ul > li {
+            width: 210px;
+            height: 485px;
+            float: left; }
+            #white_win #white_wincon #middle1 #slider0 > ul > li img {
+              width: 100%;
+              height: 100%; }
+        #white_win #white_wincon #middle1 #slider0 > ol {
+          position: absolute;
+          width: 76px;
+          left: 50%;
+          margin-left: -38px;
+          bottom: 8px; }
+          #white_win #white_wincon #middle1 #slider0 > ol li {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #fff;
+            margin-left: 7px;
+            float: left; }
+      #white_win #white_wincon #middle1 > ul {
+        float: right;
+        width: 988px;
+        background: #fff; }
+        #white_win #white_wincon #middle1 > ul li {
+          width: 196px;
+          height: 232px;
+          padding-top: 10px;
+          border-bottom: 1px solid #ececec;
+          border-right: 1px solid #ececec;
+          float: left; }
+          #white_win #white_wincon #middle1 > ul li > dl {
+            width: 100%;
+            height: 100%;
+            padding: 0 18px;
+            box-sizing: border-box; }
+            #white_win #white_wincon #middle1 > ul li > dl dt {
+              width: 100%;
+              height: 160px; }
+            #white_win #white_wincon #middle1 > ul li > dl dd p {
+              line-height: 18px;
+              width: 100%;
+              margin-top: 15px; }
+              #white_win #white_wincon #middle1 > ul li > dl dd p a {
+                color: #666; }
+              #white_win #white_wincon #middle1 > ul li > dl dd p a:hover {
+                color: #CC0000;
+                text-decoration: underline; }
+            #white_win #white_wincon #middle1 > ul li > dl dd span {
+              color: #CC0000; }
+      #white_win #white_wincon #middle1 .active {
+        background: red !important; }
+
+#wine {
+  width: 100%;
+  height: 530px;
+  margin-top: 10px; }
+  #wine #winecon {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    #wine #winecon #top1 {
+      width: 100%;
+      height: 40px;
+      overflow: hidden; }
+      #wine #winecon #top1 h4 {
+        height: 40px;
+        width: 89px;
+        line-height: 40px;
+        float: left; }
+        #wine #winecon #top1 h4 span {
+          display: inline-block;
+          width: 28px;
+          height: 28px;
+          text-align: center;
+          line-height: 28px;
+          border-radius: 50%;
+          background: #d43d4e;
+          font-size: 16px;
+          color: #fff;
+          margin-right: 10px; }
+        #wine #winecon #top1 h4 b {
+          font-size: 14px; }
+      #wine #winecon #top1 p {
+        float: right;
+        margin-top: 12px; }
+        #wine #winecon #top1 p a {
+          display: block;
+          float: left;
+          padding: 4px 12px;
+          border-right: 1px solid #ececec; }
+        #wine #winecon #top1 p a:last-child {
+          border-right: 0;
+          background: #CC0000;
+          color: #fff; }
+    #wine #winecon #middle2 {
+      width: 1200px;
+      height: 488px;
+      border-top: 1px solid #CC0000; }
+      #wine #winecon #middle2 #slider1 {
+        width: 210px;
+        height: 485px;
+        position: relative;
+        float: left;
+        overflow: hidden; }
+        #wine #winecon #middle2 #slider1 > ul {
+          height: 485px;
+          position: absolute; }
+          #wine #winecon #middle2 #slider1 > ul > li {
+            width: 210px;
+            height: 485px;
+            float: left; }
+            #wine #winecon #middle2 #slider1 > ul > li img {
+              width: 100%;
+              height: 100%; }
+        #wine #winecon #middle2 #slider1 > ol {
+          position: absolute;
+          width: 76px;
+          left: 50%;
+          margin-left: -38px;
+          bottom: 8px; }
+          #wine #winecon #middle2 #slider1 > ol li {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #fff;
+            margin-left: 7px;
+            float: left; }
+      #wine #winecon #middle2 > ul {
+        float: right;
+        width: 988px;
+        background: #fff; }
+        #wine #winecon #middle2 > ul li {
+          width: 196px;
+          height: 232px;
+          padding-top: 10px;
+          border-bottom: 1px solid #ececec;
+          border-right: 1px solid #ececec;
+          float: left; }
+          #wine #winecon #middle2 > ul li > dl {
+            width: 100%;
+            height: 100%;
+            padding: 0 18px;
+            box-sizing: border-box; }
+            #wine #winecon #middle2 > ul li > dl dt {
+              width: 100%;
+              height: 160px; }
+            #wine #winecon #middle2 > ul li > dl dd p {
+              line-height: 18px;
+              width: 100%;
+              margin-top: 15px; }
+              #wine #winecon #middle2 > ul li > dl dd p a {
+                color: #666; }
+              #wine #winecon #middle2 > ul li > dl dd p a:hover {
+                color: #CC0000;
+                text-decoration: underline; }
+            #wine #winecon #middle2 > ul li > dl dd span {
+              color: #CC0000; }
+      #wine #winecon #middle2 .active {
+        background: red !important; }
+
+#imwine {
+  width: 100%;
+  height: 530px;
+  margin-top: 10px; }
+  #imwine #imwinecon {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    #imwine #imwinecon #top2 {
+      width: 100%;
+      height: 40px;
+      overflow: hidden; }
+      #imwine #imwinecon #top2 h4 {
+        height: 40px;
+        width: 89px;
+        line-height: 40px;
+        float: left; }
+        #imwine #imwinecon #top2 h4 span {
+          display: inline-block;
+          width: 28px;
+          height: 28px;
+          text-align: center;
+          line-height: 28px;
+          border-radius: 50%;
+          background: #d43d4e;
+          font-size: 16px;
+          color: #fff;
+          margin-right: 10px; }
+        #imwine #imwinecon #top2 h4 b {
+          font-size: 14px; }
+      #imwine #imwinecon #top2 p {
+        float: right;
+        margin-top: 12px; }
+        #imwine #imwinecon #top2 p a {
+          display: block;
+          float: left;
+          padding: 4px 12px;
+          border-right: 1px solid #ececec; }
+        #imwine #imwinecon #top2 p a:last-child {
+          border-right: 0;
+          background: #CC0000;
+          color: #fff; }
+    #imwine #imwinecon #middle3 {
+      width: 1200px;
+      height: 488px;
+      border-top: 1px solid #CC0000; }
+      #imwine #imwinecon #middle3 #slider2 {
+        width: 210px;
+        height: 485px;
+        position: relative;
+        float: left;
+        overflow: hidden; }
+        #imwine #imwinecon #middle3 #slider2 > ul {
+          height: 485px;
+          position: absolute; }
+          #imwine #imwinecon #middle3 #slider2 > ul > li {
+            width: 210px;
+            height: 485px;
+            float: left; }
+            #imwine #imwinecon #middle3 #slider2 > ul > li img {
+              width: 100%;
+              height: 100%; }
+        #imwine #imwinecon #middle3 #slider2 > ol {
+          position: absolute;
+          width: 76px;
+          left: 50%;
+          margin-left: -38px;
+          bottom: 8px; }
+          #imwine #imwinecon #middle3 #slider2 > ol li {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #fff;
+            margin-left: 7px;
+            float: left; }
+      #imwine #imwinecon #middle3 > ul {
+        float: right;
+        width: 988px;
+        background: #fff; }
+        #imwine #imwinecon #middle3 > ul li {
+          width: 196px;
+          height: 232px;
+          padding-top: 10px;
+          border-bottom: 1px solid #ececec;
+          border-right: 1px solid #ececec;
+          float: left; }
+          #imwine #imwinecon #middle3 > ul li > dl {
+            width: 100%;
+            height: 100%;
+            padding: 0 18px;
+            box-sizing: border-box; }
+            #imwine #imwinecon #middle3 > ul li > dl dt {
+              width: 100%;
+              height: 160px; }
+            #imwine #imwinecon #middle3 > ul li > dl dd p {
+              line-height: 18px;
+              width: 100%;
+              margin-top: 15px; }
+              #imwine #imwinecon #middle3 > ul li > dl dd p a {
+                color: #666; }
+              #imwine #imwinecon #middle3 > ul li > dl dd p a:hover {
+                color: #CC0000;
+                text-decoration: underline; }
+            #imwine #imwinecon #middle3 > ul li > dl dd span {
+              color: #CC0000; }
+      #imwine #imwinecon #middle3 .active {
+        background: red !important; }
+
+#healthwine {
+  width: 100%;
+  height: 530px;
+  margin-top: 10px; }
+  #healthwine #healthwinecon {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    #healthwine #healthwinecon #top3 {
+      width: 100%;
+      height: 40px;
+      overflow: hidden; }
+      #healthwine #healthwinecon #top3 h4 {
+        height: 40px;
+        width: 89px;
+        line-height: 40px;
+        float: left; }
+        #healthwine #healthwinecon #top3 h4 span {
+          display: inline-block;
+          width: 28px;
+          height: 28px;
+          text-align: center;
+          line-height: 28px;
+          border-radius: 50%;
+          background: #d43d4e;
+          font-size: 16px;
+          color: #fff;
+          margin-right: 10px; }
+        #healthwine #healthwinecon #top3 h4 b {
+          font-size: 14px; }
+      #healthwine #healthwinecon #top3 p {
+        float: right;
+        margin-top: 12px; }
+        #healthwine #healthwinecon #top3 p a {
+          display: block;
+          float: left;
+          padding: 4px 12px;
+          border-right: 1px solid #ececec; }
+        #healthwine #healthwinecon #top3 p a:last-child {
+          border-right: 0;
+          background: #CC0000;
+          color: #fff; }
+    #healthwine #healthwinecon #middle4 {
+      width: 1200px;
+      height: 488px;
+      border-top: 1px solid #CC0000; }
+      #healthwine #healthwinecon #middle4 #slider3 {
+        width: 210px;
+        height: 485px;
+        position: relative;
+        float: left;
+        overflow: hidden; }
+        #healthwine #healthwinecon #middle4 #slider3 > ul {
+          height: 485px;
+          position: absolute; }
+          #healthwine #healthwinecon #middle4 #slider3 > ul > li {
+            width: 210px;
+            height: 485px;
+            float: left; }
+            #healthwine #healthwinecon #middle4 #slider3 > ul > li img {
+              width: 100%;
+              height: 100%; }
+        #healthwine #healthwinecon #middle4 #slider3 > ol {
+          position: absolute;
+          width: 76px;
+          left: 50%;
+          margin-left: -38px;
+          bottom: 8px; }
+          #healthwine #healthwinecon #middle4 #slider3 > ol li {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #fff;
+            margin-left: 7px;
+            float: left; }
+      #healthwine #healthwinecon #middle4 > ul {
+        float: right;
+        width: 988px;
+        background: #fff; }
+        #healthwine #healthwinecon #middle4 > ul li {
+          width: 196px;
+          height: 232px;
+          padding-top: 10px;
+          border-bottom: 1px solid #ececec;
+          border-right: 1px solid #ececec;
+          float: left; }
+          #healthwine #healthwinecon #middle4 > ul li > dl {
+            width: 100%;
+            height: 100%;
+            padding: 0 18px;
+            box-sizing: border-box; }
+            #healthwine #healthwinecon #middle4 > ul li > dl dt {
+              width: 100%;
+              height: 160px; }
+            #healthwine #healthwinecon #middle4 > ul li > dl dd p {
+              line-height: 18px;
+              width: 100%;
+              margin-top: 15px; }
+              #healthwine #healthwinecon #middle4 > ul li > dl dd p a {
+                color: #666; }
+              #healthwine #healthwinecon #middle4 > ul li > dl dd p a:hover {
+                color: #CC0000;
+                text-decoration: underline; }
+            #healthwine #healthwinecon #middle4 > ul li > dl dd span {
+              color: #CC0000; }
+      #healthwine #healthwinecon #middle4 .active {
+        background: red !important; }
+
+#foodwine {
+  width: 100%;
+  height: 530px;
+  margin-top: 10px; }
+  #foodwine #foodwinecon {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    #foodwine #foodwinecon #top4 {
+      width: 100%;
+      height: 40px;
+      overflow: hidden; }
+      #foodwine #foodwinecon #top4 h4 {
+        height: 40px;
+        width: 89px;
+        line-height: 40px;
+        float: left; }
+        #foodwine #foodwinecon #top4 h4 span {
+          display: inline-block;
+          width: 28px;
+          height: 28px;
+          text-align: center;
+          line-height: 28px;
+          border-radius: 50%;
+          background: #d43d4e;
+          font-size: 16px;
+          color: #fff;
+          margin-right: 10px; }
+        #foodwine #foodwinecon #top4 h4 b {
+          font-size: 14px; }
+      #foodwine #foodwinecon #top4 p {
+        float: right;
+        margin-top: 12px; }
+        #foodwine #foodwinecon #top4 p a {
+          display: block;
+          float: left;
+          padding: 4px 12px;
+          border-right: 1px solid #ececec; }
+        #foodwine #foodwinecon #top4 p a:last-child {
+          border-right: 0;
+          background: #CC0000;
+          color: #fff; }
+    #foodwine #foodwinecon #middle5 {
+      width: 1200px;
+      height: 488px;
+      border-top: 1px solid #CC0000; }
+      #foodwine #foodwinecon #middle5 #slider4 {
+        width: 210px;
+        height: 485px;
+        position: relative;
+        float: left;
+        overflow: hidden; }
+        #foodwine #foodwinecon #middle5 #slider4 > ul {
+          height: 485px;
+          position: absolute; }
+          #foodwine #foodwinecon #middle5 #slider4 > ul > li {
+            width: 210px;
+            height: 485px;
+            float: left; }
+            #foodwine #foodwinecon #middle5 #slider4 > ul > li img {
+              width: 100%;
+              height: 100%; }
+        #foodwine #foodwinecon #middle5 #slider4 > ol {
+          position: absolute;
+          width: 76px;
+          left: 50%;
+          margin-left: -38px;
+          bottom: 8px; }
+          #foodwine #foodwinecon #middle5 #slider4 > ol li {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #fff;
+            margin-left: 7px;
+            float: left; }
+      #foodwine #foodwinecon #middle5 > ul {
+        float: right;
+        width: 988px;
+        background: #fff; }
+        #foodwine #foodwinecon #middle5 > ul li {
+          width: 196px;
+          height: 232px;
+          padding-top: 10px;
+          border-bottom: 1px solid #ececec;
+          border-right: 1px solid #ececec;
+          float: left; }
+          #foodwine #foodwinecon #middle5 > ul li > dl {
+            width: 100%;
+            height: 100%;
+            padding: 0 18px;
+            box-sizing: border-box; }
+            #foodwine #foodwinecon #middle5 > ul li > dl dt {
+              width: 100%;
+              height: 160px; }
+            #foodwine #foodwinecon #middle5 > ul li > dl dd p {
+              line-height: 18px;
+              width: 100%;
+              margin-top: 15px; }
+              #foodwine #foodwinecon #middle5 > ul li > dl dd p a {
+                color: #666; }
+              #foodwine #foodwinecon #middle5 > ul li > dl dd p a:hover {
+                color: #CC0000;
+                text-decoration: underline; }
+            #foodwine #foodwinecon #middle5 > ul li > dl dd span {
+              color: #CC0000; }
+      #foodwine #foodwinecon #middle5 .active {
+        background: red !important; }
+
+#stairs {
+  width: 30px;
+  height: 180px;
+  position: fixed;
+  left: 50px;
+  top: 50%;
+  margin-top: -90px;
+  display: none; }
+  #stairs i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 0; }
+  #stairs span {
+    display: inline-block;
+    vertical-align: middle; }
+  #stairs li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ececec;
+    text-align: center;
+    line-height: 30px; }
+  #stairs ol li:nth-child(1) span {
+    width: 10px;
+    height: 16px;
+    background: url(../img/public-24.png) no-repeat 0 -102px; }
+  #stairs ol li:nth-child(2) span {
+    width: 8px;
+    height: 20px;
+    background: url(../img/public-24.png) no-repeat -18px -102px; }
+  #stairs ol li:nth-child(3) span {
+    width: 14px;
+    height: 15px;
+    background: url(../img/public-24.png) no-repeat -37px -102px; }
+  #stairs ol li:nth-child(4) span {
+    width: 10px;
+    height: 15px;
+    background: url(../img/public-24.png) no-repeat -61px -102px; }
+  #stairs ol li:nth-child(5) span {
+    width: 12px;
+    height: 15px;
+    background: url(../img/public-24.png) no-repeat -80px -102px; }
+  #stairs .active {
+    background: red; }

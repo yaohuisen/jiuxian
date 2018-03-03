@@ -1,0 +1,180 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+#login {
+  width: 1200px;
+  height: 88px;
+  margin: 0 auto;
+  padding-top: 15px;
+  box-sizing: border-box;
+  position: relative; }
+  #login h1 {
+    width: 140px;
+    height: 63px;
+    float: left; }
+  #login h2 {
+    width: 110px;
+    height: 63px;
+    float: left; }
+  #login p {
+    position: absolute;
+    right: 0;
+    top: 28px; }
+    #login p span {
+      color: #999; }
+    #login p a:nth-of-type(1) {
+      color: #0066cc;
+      margin: 0 18px 0 20px; }
+
+#main {
+  width: 100%;
+  height: 600px;
+  background: url(../img/dd.jpg) no-repeat;
+  background-size: 100% 100%; }
+  #main #maincon {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%; }
+    #main #maincon form {
+      width: 350px;
+      height: 406px;
+      float: right;
+      margin-top: 95px;
+      background: #fff;
+      position: relative;
+      padding: 25px 40px 0 40px;
+      box-sizing: border-box; }
+      #main #maincon form b {
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        background: url(../img/regLogin-8.png) no-repeat 0 -230px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        float: left; }
+      #main #maincon form h2 {
+        width: 100%;
+        height: 30px;
+        border-bottom: 1px solid #ccc;
+        color: #CC0000;
+        font-size: 18px;
+        margin-bottom: 18px; }
+      #main #maincon form .icon {
+        text-align: center;
+        width: 45px;
+        height: 42px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        padding-top: 10px;
+        float: left;
+        background: #f3f3f3; }
+      #main #maincon form i {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url(../img/regLogin-8.png) no-repeat; }
+      #main #maincon form .userName {
+        width: 100%;
+        height: 42px;
+        position: relative;
+        margin-bottom: 20px; }
+        #main #maincon form .userName i {
+          background-position: -51px 0; }
+        #main #maincon form .userName input {
+          width: 225px;
+          height: 100%;
+          border: 1px solid #ccc;
+          border-left: 0;
+          box-sizing: border-box;
+          float: left;
+          padding: 8px 0 0 8px; }
+        #main #maincon form .userName em {
+          display: inline-block;
+          background: #CC0000;
+          right: 0;
+          top: 42px;
+          position: absolute; }
+      #main #maincon form .passWord {
+        width: 100%;
+        height: 42px;
+        position: relative;
+        margin-bottom: 20px; }
+        #main #maincon form .passWord i {
+          background-position: -83px 0; }
+        #main #maincon form .passWord input {
+          width: 225px;
+          height: 100%;
+          border: 1px solid #ccc;
+          border-left: 0;
+          box-sizing: border-box;
+          float: left;
+          padding: 8px 0 0 8px; }
+        #main #maincon form .passWord em {
+          display: inline-block;
+          background: #CC0000;
+          right: 0;
+          top: 42px;
+          position: absolute; }
+      #main #maincon form .authcode {
+        width: 100%;
+        height: 42px;
+        position: relative;
+        margin-bottom: 20px; }
+        #main #maincon form .authcode i {
+          background-position: -426px 0; }
+        #main #maincon form .authcode input {
+          width: 225px;
+          height: 100%;
+          border: 1px solid #ccc;
+          border-left: 0;
+          box-sizing: border-box;
+          float: left;
+          padding: 8px 0 0 8px; }
+      #main #maincon form .load {
+        width: 100%;
+        height: 42px; }
+        #main #maincon form .load input {
+          width: 100%;
+          height: 100%;
+          border: 0;
+          background: #CC0000;
+          color: #fff; }
+
+#foot {
+  width: 1200px;
+  height: 229px;
+  position: relative; }
+  #foot #txt {
+    width: 100%;
+    position: absolute;
+    bottom: 36px;
+    left: 50%;
+    margin-left: -500px; }
+  #foot p {
+    text-align: center;
+    line-height: 30px; }
+  #foot p:nth-of-type(2) {
+    color: #CC0000; }
